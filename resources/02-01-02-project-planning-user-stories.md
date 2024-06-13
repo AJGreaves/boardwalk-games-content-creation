@@ -3,7 +3,7 @@
 ## User Story 1: User friendly navigation and responsive design (must-have)
 - User story: As a First-Time Visitor, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.
 
-Acceptance Critiera
+Acceptance Criteria
 - The website is fully responsive across various devices and screen sizes.
 - Site layout and navigation are intuitive, allowing easy access to different sections.
 
