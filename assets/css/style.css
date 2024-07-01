@@ -28,7 +28,7 @@ h3 {
 
 h1,
 h2 {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -63,15 +63,14 @@ h2 {
 /* services */
 
 #services .card-footer {
-    background-color: transparent;
-    color: var(--highlight-color);
     font-weight: bold;
-}  
+    color: var(--highlight-color);
+    background-color: transparent;  
+}
 
 #services .card {
     margin-bottom: 1.5rem;
 }
-  
 
 /* grid visualisation CSS for testing */
 
@@ -85,7 +84,6 @@ h2 {
     background-color: lightgray;
 } */
 
-/* media queries */
 
 /* medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
@@ -95,16 +93,15 @@ h2 {
     }
 }
 
-
-/* large devices (desktops, 992px and up) */
+/* large devices (desktop, 992px and up) */
 @media screen and (min-width: 992px) {
     /* make all service cards the same height for consistency */
     #services .card-body {
         min-height: auto;
-    }    
+    }
 }
 
-/* xl screen sizes and up */
+/* xl devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
     /* make all service cards the same height for consistency */
     #services .card-body {
@@ -112,11 +109,10 @@ h2 {
     }
 }
 
-/* xxl screen sizes */
+/* xxl devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
     /* make all service cards the same height for consistency */
     #services .card-body {
         min-height: 195px;
     }
 }
-  
