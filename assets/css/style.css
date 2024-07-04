@@ -79,7 +79,7 @@ h2 {
     border: none;
 }
 
-/* footer/contact */ 
+/* footer/contact */
 
 #contact {
     background-color: var(--primary-color);
@@ -101,14 +101,13 @@ h2 {
     margin-right: 15px;
 }
 
-#contact .social-icons i {
+#contact .social-links i {
     color: var(--highlight-color-light);
     font-size: 1.9rem;
-    margin-right: 15px;
-    transition: all 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
 }
 
-#contact .social-icons i:hover {
+#contact .social-links i:hover {
     color: var(--secondary-color);
 }
 
